@@ -1,5 +1,4 @@
 import subprocess
-import json
 import datetime
 
 from flask import Flask

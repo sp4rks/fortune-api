@@ -1,6 +1,6 @@
-FROM python:3
+FROM python:3-slim
 
-WORKDIR /Users/stevedillon/projects/fortune-api
+WORKDIR /opt/fortune-api
 
 COPY requirements.txt ./
 RUN apt update -y
